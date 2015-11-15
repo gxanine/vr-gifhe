@@ -45,11 +45,47 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\OVR\Moonlight\Scripts\OVRDebugHeadController.cs" />
+     <Compile Include="Assets\OVR\Moonlight\Scripts\OVROverlay.cs" />
+     <Compile Include="Assets\OVR\Moonlight\Scripts\OVRPlatformMenu.cs" />
+     <Compile Include="Assets\OVR\Moonlight\Scripts\OVRTouchpad.cs" />
+     <Compile Include="Assets\OVR\Moonlight\Scripts\OVRVolumeControl.cs" />
+     <Compile Include="Assets\OVR\Moonlight\Scripts\Utils\OVRChromaticAberration.cs" />
+     <Compile Include="Assets\OVR\Moonlight\Scripts\Utils\OVRDebugGraph.cs" />
+     <Compile Include="Assets\OVR\Moonlight\Scripts\Utils\OVRInputControl.cs" />
+     <Compile Include="Assets\OVR\Moonlight\Scripts\Utils\OVRModeParms.cs" />
+     <Compile Include="Assets\OVR\Moonlight\Scripts\Utils\OVRMonoscopic.cs" />
+     <Compile Include="Assets\OVR\Moonlight\Scripts\Utils\OVRResetOrientation.cs" />
+     <Compile Include="Assets\OVR\Moonlight\Scripts\Utils\OVRWaitCursor.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRCameraRig.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRCommon.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRDisplay.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRInput.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRManager.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVROnCompleteListener.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRPlugin.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRProfile.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRTracker.cs" />
+     <Compile Include="Assets\OVR\Scripts\Util\OVRDebugInfo.cs" />
+     <Compile Include="Assets\OVR\Scripts\Util\OVRGamepadController.cs" />
+     <Compile Include="Assets\OVR\Scripts\Util\OVRGridCube.cs" />
+     <Compile Include="Assets\OVR\Scripts\Util\OVRPlayerController.cs" />
+     <Compile Include="Assets\OVR\Scripts\Util\OVRSceneSampleController.cs" />
+     <Compile Include="Assets\OVR\Scripts\Util\OVRScreenFade.cs" />
+     <Compile Include="Assets\OVR\Scripts\Util\OVRTrackerBounds.cs" />
      <Compile Include="Assets\Scripts\Crosshair.cs" />
      <Compile Include="Assets\Scripts\DragAndDrop.cs" />
+     <Compile Include="Assets\Scripts\DragableDoor.cs" />
+     <Compile Include="Assets\Scripts\Keys.cs" />
+     <Compile Include="Assets\Scripts\LookAround.cs" />
+     <Compile Include="Assets\Scripts\ObjectsPhysics.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\Rotator.cs" />
+     <Compile Include="Assets\Scripts\Triggers.cs" />
      <None Include="Assets\Materials\3DText.shader" />
+     <None Include="Assets\OVR\Moonlight\Shaders\OVRColorRampAlpha.shader" />
+     <None Include="Assets\OVR\Moonlight\Shaders\Unlit Crosshair.shader" />
+     <None Include="Assets\OVR\Moonlight\Resources\Unlit Transparent Color.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

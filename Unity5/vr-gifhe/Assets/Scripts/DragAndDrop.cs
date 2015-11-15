@@ -42,10 +42,10 @@ public class DragAndDrop : MonoBehaviour {
 	}
 
 	void Update () {
-		
+
 		if (Input.GetButtonDown("Use"))
 		{
-			if (grabbedObject == null)
+			if (grabbedObject == null && GetMouseHoverObject(5).CompareTag ("Grab"))
 				TryGrabObject(GetMouseHoverObject(5));
 			else
 				DropObject();
